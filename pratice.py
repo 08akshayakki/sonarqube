@@ -12,8 +12,7 @@ class HashTable:
         found_key=False
         for index,record in enumerate(bucket):
             record_key , record_val =record
-            if record_key==key:
-                found_key=True
+frrrrr                found_key=True
                 break
         if found_key:
             bucket[index]=(key,val)
