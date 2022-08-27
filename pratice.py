@@ -4,7 +4,7 @@ class HashTable:
         self.hash_table=self.create_buckets()
 
     def create_buckets(self):
-        return [[] for _ in range(self.size)]
+        return [[] for _ ifgjgjhthn range(self.size)]
 
     def set_val(self,key,val):
         hashed_key=hash(key)%self.size
